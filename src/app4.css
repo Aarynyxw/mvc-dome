@@ -1,0 +1,24 @@
+#app4 {}
+
+@keyframes change {
+    0% {
+        background: rgb(0, 122, 204);
+    }
+
+    100% {
+        background: pink;
+    }
+}
+
+#app4 .circle {
+    margin-top: 5vw;
+    margin-left: 5vw;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: 1px solid pink;
+}
+
+#app4 .circle.active {
+    animation: change 1s infinite alternate linear;
+}
